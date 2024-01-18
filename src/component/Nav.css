@@ -1,0 +1,33 @@
+.navbar {
+    background-color: #35696b;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px;
+    overflow: hidden;
+  }
+  
+  .navbar li {
+    float: left;
+  }
+
+  .sign{
+    text-align: right;
+  }
+  
+  .navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbar li a:hover {
+    background-color: #0f1e24;
+    border-radius: 10%;
+    animation-timing-function:inherit;
+  }
+  
