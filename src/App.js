@@ -1,5 +1,6 @@
 
 import Nav from './component/Nav';
+import Product from './component/Products'
 import './App.css';
 import {BrowserRouter,Route, Routes} from 'react-router-dom'
 import PrivateComponent from './component/PrivateComponent';
@@ -13,7 +14,7 @@ function App() {
     <Nav></Nav>
  <Routes>
     <Route element={<PrivateComponent/>}>
-      <Route path="/" element={<h1>product lisring</h1>}/>
+      <Route path="/" element={<Product/>}/>
       <Route path="/add" element={<h1>adding product</h1>}/>
       <Route path="/update" element={<h1>product updating</h1>}/>
       <Route path="/logout" element={<h1>logout</h1>}/>
